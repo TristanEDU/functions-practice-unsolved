@@ -19,7 +19,7 @@
 function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
   // if (!arr.length) return false;
   for (let elem of arr) {
-    console.log("inside for-loop", elem);
+    // console.log("inside for-loop", elem);
     if (elem > val1 && elem < val2) {
       return true;
     }
@@ -75,7 +75,7 @@ const getValueWithConditionThree = function (num1, num2) {
   }
 };
 
-console.table(getValueWithConditionOne(40, 40));
+console.log(getValueWithConditionOne(40, 40));
 console.log(getValueWithConditionTwo(20, 40));
 console.log(getValueWithConditionThree(10, 40));
 
